@@ -9,7 +9,7 @@ printf("안녕");
     char name[50];          //이름
     struct Student* rlink;  //오른쪽 노드에 대한 링크
 }student;
-
+ printf("이게 fetch다");
 typedef struct {
     student* start; //리스트시작
     student* last;  //리스트끝

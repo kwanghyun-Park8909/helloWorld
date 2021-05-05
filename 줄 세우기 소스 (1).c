@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-typedef struct Student {    //이중연결리스트
+printf("안녕");
+ typedef struct Student {    //이중연결리스트
     struct Student* llink;  //왼쪽노드에 대한 링크
     double height;          //키
     char name[50];          //이름
